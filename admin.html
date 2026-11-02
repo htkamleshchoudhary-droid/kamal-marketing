@@ -53,5 +53,12 @@
   </main>
 
   <script src="admin.js"></script>
+  <script>
+  const password = prompt("Enter Admin Password:");
+  if (password !== "kamal123") { // Replace with your secure password
+    alert("Unauthorized access!");
+    window.location.href = "index.html";
+  }
+</script>
 </body>
 </html>
